@@ -7,7 +7,7 @@ RSpec.describe WeatherFacade do
       VCR.use_cassette('weather_facade') do
         location = WeatherFacade.new('erie,co')
         weather = location.weather
-
+        
         expect(weather).to be_a Weather
         expect(weather.current_weather).to be_a Hash
         expect(weather.current_weather).to have_key :last_updated
