@@ -24,7 +24,7 @@ class BookFacade
   end
 
   def library_service
-    @_library_service ||= LibraryService.new.get_books(@location, @quantity)
+    @_library_service ||= LibraryService.new.get_books(@location)
   end
 
   def weather_forecast
@@ -35,7 +35,7 @@ class BookFacade
   end
 
   def book_data
-    library_service[:docs].map do |book|
+    library_service[:docs].first(@quantity.to_i).map do |book|
       {
         isbn: book[:isbn],
         title: book[:title],
@@ -46,6 +46,6 @@ class BookFacade
   
 
   def total_books_found
-    book_data.count
+    library_service[:docs].count
   end
 end

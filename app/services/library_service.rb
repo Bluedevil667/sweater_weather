@@ -1,6 +1,6 @@
 class LibraryService
-  def get_books(search, limit)
-    get_url("/search.json?q=#{search}&limit=#{limit}")
+  def get_books(search)
+    get_url("/search.json?q=#{search}")
   end
 
   private

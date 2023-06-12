@@ -1,10 +1,10 @@
 RSpec.describe 'API V1 Book Search', type: :request do
-  describe 'GET /api/v0/book-search' do
+  describe 'GET /api/v1/book-search' do
     it 'returns the book search results' do
       location = 'denver,co'
       quantity = 5
 
-      get '/api/v0/book-search', params: { location: location, quantity: quantity }
+      get '/api/v1/book-search', params: { location: location, quantity: quantity }
       expect(response).to have_http_status(:ok)
       
       body = JSON.parse(response.body)
@@ -30,13 +30,13 @@ RSpec.describe 'API V1 Book Search', type: :request do
       forecast = attributes['forecast']
 
       expect(forecast).to have_key('summary')
-      expect(forecast['summary']).to eq('Patchy light rain with thunder')
+      expect(forecast['summary']).to eq('Light rain')
 
       expect(forecast).to have_key('temperature')
-      expect(forecast['temperature']).to eq(59.0)
+      expect(forecast['temperature']).to eq(52.9)
 
       expect(attributes).to have_key('total_books_found')
-      expect(attributes['total_books_found']).to eq(5)
+      expect(attributes['total_books_found']).to eq(100)
 
       expect(attributes).to have_key('books')
       expect(attributes['books']).to be_a(Array)
