@@ -38,6 +38,7 @@ gem "bootsnap", require: false
 gem "figaro" 
 gem "faraday"
 gem 'jsonapi-serializer'
+gem 'bcrypt'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -56,8 +57,6 @@ group :development do
   # gem "spring"
 end
 group :test do
-  gem 'rspec-rails'
-  gem 'pry'
   gem "webmock"
   gem "vcr"
 end
