@@ -15,5 +15,6 @@ The primary learning goals of this project are:
 To clone and set up the application locally, follow these steps:
 
 1. Clone the repository:
-
-   git clone (https://github.com/Bluedevil667/sweater_weather/edit/main/README.md)https://github.com/Bluedevil667/sweater_weather/edit/main/README.md
+```
+   git clone git@github.com:Bluedevil667/sweater_weather.git
+```
