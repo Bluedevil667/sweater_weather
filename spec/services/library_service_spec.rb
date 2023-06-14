@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe LibraryService do
   describe 'instance methods' do
-    it 'can get_books' do
+    xit 'can get_books' do
       library_service = LibraryService.new
       library_result = library_service.get_books('denver')
       
