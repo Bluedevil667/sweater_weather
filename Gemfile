@@ -26,6 +26,7 @@ gem "puma", "~> 5.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+gem "tzinfo"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
@@ -38,6 +39,9 @@ gem "bootsnap", require: false
 gem "figaro" 
 gem "faraday"
 gem 'jsonapi-serializer'
+gem 'bcrypt'
+gem 'timezone', '~> 1.0'
+gem 'timecop'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -56,8 +60,6 @@ group :development do
   # gem "spring"
 end
 group :test do
-  gem 'rspec-rails'
-  gem 'pry'
   gem "webmock"
   gem "vcr"
 end
