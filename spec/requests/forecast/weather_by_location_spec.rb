@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'Weather API' do
   describe 'Sends weather data for a city' do
     it 'can send weather data for a city', :vcr do
-      get '/api/v0/forecast?location=denver,co'
+      get '/api/v1/forecast?location=denver,co'
 
       expect(response).to be_successful
       expect(response.status).to eq(200)
