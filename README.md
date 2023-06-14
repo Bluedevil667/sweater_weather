@@ -1,24 +1,19 @@
-# README
+# Sweater Weather
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sweater Weather is a backend API that provides endpoints for road trip data, user creation, login features, and weather data for any location.
 
-Things you may want to cover:
+## Learning Goals
 
-* Ruby version
+The primary learning goals of this project are:
 
-* System dependencies
+- Creating Backend API
+- Proper error responses
+- Consuming data from separate API'S to make an API of my own
 
-* Configuration
+## Cloning and Setup
 
-* Database creation
+To clone and set up the application locally, follow these steps:
 
-* Database initialization
+1. Clone the repository:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   git clone (https://github.com/Bluedevil667/sweater_weather/edit/main/README.md)https://github.com/Bluedevil667/sweater_weather/edit/main/README.md
