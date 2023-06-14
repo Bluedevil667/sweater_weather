@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jun 2023 07:41:03 GMT
+      - Wed, 14 Jun 2023 09:42:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -29,17 +29,17 @@ http_interactions:
       X-Ratelimit-Limit-2628000:
       - '15000'
       X-Ratelimit-Remaining-2628000:
-      - '14458'
+      - '14281'
       Ratelimit-Limit:
       - '15000'
       Ratelimit-Remaining:
-      - '14458'
+      - '14281'
       Ratelimit-Reset:
-      - '447537'
+      - '440226'
       X-Powered-By:
       - MapQuest
       X-Request-Id:
-      - d08e34a0-0a86-11ee-ae95-b587ca6a70ef
+      - d61df110-0a97-11ee-bb52-038371c48330
       Access-Control-Allow-Origin:
       - "*"
       X-Transaction-Count:
@@ -50,7 +50,7 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyMiBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJlcmllLGNvIn0sImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkVyaWUiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJhZG1pbkFyZWE0IjoiQm91bGRlciIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IkNPIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhBWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MC4wNTEzMywibG5nIjotMTA1LjA1MDE5fSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjQwLjA1MTMzLCJsbmciOi0xMDUuMDUwMTl9LCJtYXBVcmwiOiIifV19XX0=
-  recorded_at: Wed, 14 Jun 2023 07:41:03 GMT
+  recorded_at: Wed, 14 Jun 2023 09:42:54 GMT
 - request:
     method: get
     uri: http://api.weatherapi.com/v1/forecast.json?days=6&key=<open_weather_api_key>&q=40.05133,-105.05019
@@ -70,7 +70,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Wed, 14 Jun 2023 07:41:04 GMT
+      - Wed, 14 Jun 2023 09:42:54 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -80,7 +80,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Server:
-      - BunnyCDN-IL1-1068
+      - BunnyCDN-IL1-718
       Cdn-Pullzone:
       - '93447'
       Cdn-Uid:
@@ -96,21 +96,21 @@ http_interactions:
       Cdn-Requestpullcode:
       - '200'
       Cdn-Cachedat:
-      - 06/14/2023 07:41:04
+      - 06/14/2023 09:42:54
       Cdn-Edgestorageid:
       - '1029'
       Cdn-Status:
       - '200'
       Cdn-Requestid:
-      - 9c3644bfb2f41d647ac842e44d1a4e09
+      - dd0e76791da3b4a9237851e4c6131219
       Cdn-Cache:
       - EXPIRED
     body:
       encoding: ASCII-8BIT
       string: '{"location":{"name":"Erie","region":"Colorado","country":"United States
-        of America","lat":40.05,"lon":-105.05,"tz_id":"America/Denver","localtime_epoch":1686728464,"localtime":"2023-06-14
-        1:41"},"current":{"last_updated_epoch":1686727800,"last_updated":"2023-06-14
-        01:30","temp_c":12.0,"temp_f":53.6,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":10,"wind_dir":"N","pressure_mb":1015.0,"pressure_in":29.97,"precip_mm":0.0,"precip_in":0.0,"humidity":71,"cloud":0,"feelslike_c":11.2,"feelslike_f":52.1,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":11.6,"gust_kph":18.7},"forecast":{"forecastday":[{"date":"2023-06-14","date_epoch":1686700800,"day":{"maxtemp_c":26.0,"maxtemp_f":78.8,"mintemp_c":10.3,"mintemp_f":50.5,"avgtemp_c":18.3,"avgtemp_f":64.9,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":48.0,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":5.0},"astro":{"sunrise":"05:30
+        of America","lat":40.05,"lon":-105.05,"tz_id":"America/Denver","localtime_epoch":1686735774,"localtime":"2023-06-14
+        3:42"},"current":{"last_updated_epoch":1686735000,"last_updated":"2023-06-14
+        03:30","temp_c":11.0,"temp_f":51.8,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":2.2,"wind_kph":3.6,"wind_degree":10,"wind_dir":"N","pressure_mb":1014.0,"pressure_in":29.95,"precip_mm":0.0,"precip_in":0.0,"humidity":76,"cloud":0,"feelslike_c":10.1,"feelslike_f":50.1,"vis_km":16.0,"vis_miles":9.0,"uv":1.0,"gust_mph":11.2,"gust_kph":18.0},"forecast":{"forecastday":[{"date":"2023-06-14","date_epoch":1686700800,"day":{"maxtemp_c":26.0,"maxtemp_f":78.8,"mintemp_c":10.3,"mintemp_f":50.5,"avgtemp_c":18.3,"avgtemp_f":64.9,"maxwind_mph":8.3,"maxwind_kph":13.3,"totalprecip_mm":0.1,"totalprecip_in":0.0,"totalsnow_cm":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":48.0,"daily_will_it_rain":0,"daily_chance_of_rain":0,"daily_will_it_snow":0,"daily_chance_of_snow":0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"uv":5.0},"astro":{"sunrise":"05:30
         AM","sunset":"08:30 PM","moonrise":"03:02 AM","moonset":"05:21 PM","moon_phase":"Waning
         Crescent","moon_illumination":"18","is_moon_up":0,"is_sun_up":1},"hour":[{"time_epoch":1686722400,"time":"2023-06-14
         00:00","temp_c":12.8,"temp_f":55.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.4,"wind_kph":8.6,"wind_degree":235,"wind_dir":"SW","pressure_mb":1011.0,"pressure_in":29.84,"precip_mm":0.0,"precip_in":0.0,"humidity":65,"cloud":7,"feelslike_c":12.2,"feelslike_f":54.0,"windchill_c":12.2,"windchill_f":54.0,"heatindex_c":12.8,"heatindex_f":55.0,"dewpoint_c":6.3,"dewpoint_f":43.3,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":11.2,"gust_kph":18.0,"uv":1.0},{"time_epoch":1686726000,"time":"2023-06-14
@@ -317,5 +317,5 @@ http_interactions:
         21:00","temp_c":20.4,"temp_f":68.7,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":4.0,"wind_kph":6.5,"wind_degree":53,"wind_dir":"NE","pressure_mb":1004.0,"pressure_in":29.63,"precip_mm":0.0,"precip_in":0.0,"humidity":38,"cloud":12,"feelslike_c":20.4,"feelslike_f":68.7,"windchill_c":20.4,"windchill_f":68.7,"heatindex_c":20.4,"heatindex_f":68.7,"dewpoint_c":5.4,"dewpoint_f":41.7,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":8.5,"gust_kph":13.7,"uv":1.0},{"time_epoch":1687233600,"time":"2023-06-19
         22:00","temp_c":19.6,"temp_f":67.3,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":5.1,"wind_kph":8.3,"wind_degree":139,"wind_dir":"SE","pressure_mb":1004.0,"pressure_in":29.66,"precip_mm":0.0,"precip_in":0.0,"humidity":39,"cloud":11,"feelslike_c":19.6,"feelslike_f":67.3,"windchill_c":19.6,"windchill_f":67.3,"heatindex_c":19.6,"heatindex_f":67.3,"dewpoint_c":5.1,"dewpoint_f":41.2,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":10.7,"gust_kph":17.3,"uv":1.0},{"time_epoch":1687237200,"time":"2023-06-19
         23:00","temp_c":18.9,"temp_f":66.0,"is_day":0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png","code":1000},"wind_mph":6.0,"wind_kph":9.7,"wind_degree":224,"wind_dir":"SW","pressure_mb":1005.0,"pressure_in":29.68,"precip_mm":0.0,"precip_in":0.0,"humidity":40,"cloud":10,"feelslike_c":18.9,"feelslike_f":66.0,"windchill_c":18.9,"windchill_f":66.0,"heatindex_c":18.9,"heatindex_f":66.0,"dewpoint_c":4.8,"dewpoint_f":40.6,"will_it_rain":0,"chance_of_rain":0,"will_it_snow":0,"chance_of_snow":0,"vis_km":10.0,"vis_miles":6.0,"gust_mph":12.8,"gust_kph":20.5,"uv":1.0}]}]}}'
-  recorded_at: Wed, 14 Jun 2023 07:41:04 GMT
+  recorded_at: Wed, 14 Jun 2023 09:42:54 GMT
 recorded_with: VCR 6.1.0
